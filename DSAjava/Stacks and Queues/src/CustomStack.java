@@ -26,16 +26,22 @@ public class CustomStack {
 
     public int peek() throws StackException{
         if(isEmpty()) {
-            throw new StackException("Can't pop stack is empty!!");
+            throw new StackException("Can't peek stack is empty!!");
         }
         return data[ptr];
     }
 
-    private boolean isFull() {
+    public boolean isFull() {
         return  ptr == data.length-1;
     }
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return  ptr == -1;
     }
 
+//    public void displayStack() {
+//        for(int i=0;i< data.length;i++){
+//            System.out.print(data[i] + " ");
+//        }
+//    }
 }
+
