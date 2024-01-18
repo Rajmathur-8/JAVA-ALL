@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/DSAjava.iml" filepath="$PROJECT_DIR$/.idea/DSAjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example/Example.iml" filepath="$PROJECT_DIR$/Example/Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks and Queues/Stacks and Queues.iml" filepath="$PROJECT_DIR$/Stacks and Queues/Stacks and Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StacksAndQueuesQuestion/StacksAndQueuesQuestion.iml" filepath="$PROJECT_DIR$/StacksAndQueuesQuestion/StacksAndQueuesQuestion.iml" />
     </modules>
   </component>
 </project>
