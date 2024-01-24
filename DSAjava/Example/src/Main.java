@@ -3,8 +3,11 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
     Solution solution = new Solution();
-       int[][] matches = {{1,3},{2,3},{3,6},{5,6},{5,7},{4,5},{4,8},{4,9},{10,4},{10,9}};
-    System.out.println(solution.findWinners(matches));
+        Solution2 sol = new Solution2();
+        int[] arr = {3,1,2,4};
+      sol.sumSubarrayMins(arr);
+//       int[][] matches = {{1,3},{2,3},{3,6},{5,6},{5,7},{4,5},{4,8},{4,9},{10,4},{10,9}};
+//    System.out.println(solution.findWinners(matches));
     }
 }
 
@@ -44,5 +47,18 @@ class Solution {
         result.add(oneLoss);
 
         return result;
+    }
+}
+class  Solution2{
+    public void sumSubarrayMins(int[] arr){
+
+        int n = arr.length;
+        int sum = 0;
+        for(int i = 0; i< n-1;i++){
+            for(int j =0; j < n;j++){
+               System.out.println(arr[j]);
+            }
+        }
+
     }
 }
